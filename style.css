@@ -1,0 +1,61 @@
+body{
+    background: rgb(243, 227, 207);
+    padding-left: 1%;     
+    padding-right: 1%;
+}
+.navbar{
+    width: 100%; /* Ancho completo de la pantalla */ 
+    background-color: lightblue; /* Cambia el color de fondo del navbar si es necesario */
+    color: red; /* Cambia el color del texto del navbar si es necesario */
+}
+.card-presentacion{
+    background-color: bisque;
+    display:inline-block;
+    height: auto;
+    justify-content: center;
+    padding: 3%;
+    border: 1px solid black;
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-left: 20%; /* Ajusta el margen izquierdo según sea necesario */
+}
+.foto{
+    margin: 0 auto;
+    margin-left: 10%; /* Ajusta el margen izquierdo según sea necesario */ 
+    max-width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor padre */
+    height: auto; /* Mantiene la relación de aspecto original */
+
+}
+h3{
+    justify-content: center;
+}
+.nombre{
+    text-align: center;
+}
+.container{
+    
+    background-color: blueviolet;
+}
+.col img {
+    width: 100%;
+    max-width: 200px; /* Ajusta el ancho máximo según tus necesidades */
+    height: auto;
+    padding: 2%;
+    border-radius: 20px; /* Ajusta el radio de los bordes redondeados */
+}
+.contacto{
+    background-color: beige;   
+    height: auto;
+    max-width: 300px;
+    justify-content: center;
+    padding: 1%;
+    border: 1px solid black;
+    margin: 0 auto; /* Centra horizontalmente */
+    margin-left: 10%; /* Ajusta el margen izquierdo según sea necesario */
+    display: flex;
+    flex-direction: column;
+    /*gap: 3px; /* Espacio entre los elementos */
+}
+
+label, input, textarea {
+    width: 90%; /* Ocupar todo el ancho del contenedor */
+}
